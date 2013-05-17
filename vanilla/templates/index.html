@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    {% assets 'css' %}
+    <link rel="stylesheet" href="{{ ASSET_URL }}">
+    {% endassets %}
+</head>
+<body>
+    <h1></h1>
+    {% assets 'js' %}
+    <script src="{{ ASSET_URL}}"></script>
+    {% endassets %}
+</body>
+</head>
+</html>
