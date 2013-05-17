@@ -1,1 +1,1 @@
-jQuery('h1').html(Handlebars.templates.hello({'name': 'world'}))
+console.log(Handlebars.templates.hello({'name': 'World'}))

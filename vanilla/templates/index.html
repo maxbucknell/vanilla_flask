@@ -8,7 +8,11 @@
     {% endassets %}
 </head>
 <body>
-    <h1></h1>
+    <h1 class="main-heading">Flask is working!</h1>
+    <div class="instructions">
+        <p>If you're seeing this page, it means that Flask is up and running. Before running off to play, be sure to change the secret key and database name.
+        </p>
+    </div>
     {% assets 'js' %}
     <script src="{{ ASSET_URL}}"></script>
     {% endassets %}
