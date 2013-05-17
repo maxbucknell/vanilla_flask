@@ -5,6 +5,8 @@ Jinja2==2.6
 WTForms==1.0.4
 Werkzeug==0.8.3
 flask-mongoengine==0.7.0RC1
+## FIXME: could not find svn URL in dependency_links for this package:
+flup==1.0.3.dev-20110405
 mongoengine==0.8.0RC4
 pymongo==2.5.1
 webassets==0.8
