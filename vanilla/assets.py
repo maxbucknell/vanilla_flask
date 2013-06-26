@@ -1,8 +1,10 @@
-from vanilla import app
+from . import app
 from flask.ext.assets import Environment, Bundle
 
 assets = Environment(app)
 assets.debug = True
+
+# Set up coffeescript and handlebars templates
 assets.register('js', Bundle(
     # JavaScript
     'js/vendor/jquery-2.0.0.js',
@@ -22,6 +24,8 @@ assets.register('js', Bundle(
     filters='uglifyjs',
     output='app-%(version)s.js',
 ))
+
+# Sass for stylesheets
 assets.register('css', Bundle(
     # CSS
     'css/vendor/normalize-2.1.2.css',

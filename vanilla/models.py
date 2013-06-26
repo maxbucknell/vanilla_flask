@@ -1,1 +1,1 @@
-from vanilla.db import db
+from .db import db
